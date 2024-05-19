@@ -1,0 +1,152 @@
+
+  /* height: 40vmin; */
+  /* pointer-events: none; */
+  @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+@media (prefers-reduced-motion: no-preference) {
+    /* animation: App-logo-spin infinite 20s linear; */
+}
+
+body {
+  background-color: #111827;
+}
+
+@keyframes App-logo-spin {
+  from {
+  }
+  to {
+  }
+}
+
+
+* {
+  word-break: break-all;
+  /* user-select: none; */
+}
+.App {
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  width: 80%;
+  color: white;
+  max-width: 850px;
+}
+
+.App h1 {
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.App .task-todo {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  /* justify-content; */
+  /* align-items: center; */
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.App .task-todo .todo-options {
+  display: flex;
+  gap: 10px;
+      display: flex;
+    justify-content: end;
+}
+
+.btn-todo {
+  border-radius: .375rem;
+  cursor: pointer;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  padding: .70rem 1.2rem;
+  color: white;
+}
+
+.done-btn {
+  background-color: #3f4b7a; 
+  border: none;
+}
+
+.add-task {
+  background-color: #0f766e;  
+  border: none;
+}
+
+.add-task:hover {
+  background-color: #0c5e57; 
+  border: none;
+}
+
+.done-btn:hover {
+  background-color: #273469;
+  border: none;
+}
+
+
+.edit-btn {
+  background: transparent;
+  border: 1px solid #888888;
+}
+
+.edit-btn:hover {
+  background: #3a4c66;
+}
+
+.task-text {
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  margin-left: auto ;
+  margin-right: auto;
+
+}
+
+.header div.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Briem Hand";
+  gap: 10px;
+}
+
+.header div.user-account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.img-logo {
+  width: 100px;
+}
+
+.img-user {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.show-tasks {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,73 @@
+.dialog__input {
+    padding:1rem  2rem  2rem  2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.dialog__input button {
+    font: 15px/24px 'Muli', sans-serif;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    background-color: #336835;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dialog__input button:hover {
+    background-color: #49974b;
+}
+
+.dialog__input input, select {
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+.dialog__input :focus {
+    outline: none;
+}
+
+.dialog__input .col-3 {
+    position: relative;
+}
+
+.dialog__input input, select  {
+    font: 15px/24px "Lato", Arial, sans-serif;
+    color: #d1d5db;
+    background-color: rgba(55,65,81,.5);
+    padding: 10px;
+
+}
+
+#taskDueDate {
+    color: #d1d5db;
+    padding: 20px;
+}
+
+.dialog__input .effect-1 {
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+}
+
+.dialog__input .effect-1~.focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #4caf50;
+    transition: 0.4s;
+}
+
+.dialog__input .effect-1:focus~.focus-border {
+    width: 100%;
+    transition: 0.4s;
+}

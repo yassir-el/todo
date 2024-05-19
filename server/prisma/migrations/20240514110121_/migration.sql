@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Todo" ALTER COLUMN "startDate" DROP DEFAULT,
+ALTER COLUMN "startDate" SET DATA TYPE TEXT;
